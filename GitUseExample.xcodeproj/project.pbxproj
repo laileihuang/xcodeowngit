@@ -21,6 +21,7 @@
 		26BAEBD319763F7D0065B33F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BAEBB519763F7D0065B33F /* UIKit.framework */; };
 		26BAEBDB19763F7D0065B33F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26BAEBD919763F7D0065B33F /* InfoPlist.strings */; };
 		26BAEBDD19763F7D0065B33F /* GitUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BAEBDC19763F7D0065B33F /* GitUseExampleTests.m */; };
+		26BAEC4A197794B90065B33F /* MapForItenerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BAEC49197794B90065B33F /* MapForItenerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		26BAEBD819763F7D0065B33F /* GitUseExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitUseExampleTests-Info.plist"; sourceTree = "<group>"; };
 		26BAEBDA19763F7D0065B33F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		26BAEBDC19763F7D0065B33F /* GitUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExampleTests.m; sourceTree = "<group>"; };
+		26BAEC48197794B90065B33F /* MapForItenerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItenerary.h; sourceTree = "<group>"; };
+		26BAEC49197794B90065B33F /* MapForItenerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItenerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				26BAEBC319763F7D0065B33F /* Main.storyboard */,
 				26BAEBC619763F7D0065B33F /* ViewController.h */,
 				26BAEBC719763F7D0065B33F /* ViewController.m */,
+				26BAEC48197794B90065B33F /* MapForItenerary.h */,
+				26BAEC49197794B90065B33F /* MapForItenerary.m */,
 				26BAEBC919763F7D0065B33F /* Images.xcassets */,
 				26BAEBB819763F7D0065B33F /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26BAEC4A197794B90065B33F /* MapForItenerary.m in Sources */,
 				26BAEBC819763F7D0065B33F /* ViewController.m in Sources */,
 				26BAEBC219763F7D0065B33F /* AppDelegate.m in Sources */,
 				26BAEBBE19763F7D0065B33F /* main.m in Sources */,
